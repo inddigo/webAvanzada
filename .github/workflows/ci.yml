@@ -15,7 +15,7 @@ jobs:
         working-directory: frontend
 
     steps:
-      - name: Obtener código
+      - name: Obtener codigo
         uses: actions/checkout@v4
 
       - name: Configurar Node.js
